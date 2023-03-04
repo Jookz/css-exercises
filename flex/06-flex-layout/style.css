@@ -26,9 +26,10 @@ input {
   margin-bottom: 16px;
 }
 
-.header {
+.header, .footer {
   display: flex;
   padding: 16px;
+  justify-content: space-between;
 }
 
 .left-links {
@@ -42,7 +43,7 @@ input {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  gap: 16px;
 }
 
 li {
@@ -51,7 +52,7 @@ li {
 
 a {
     text-decoration: none;
-    flex: 1;
+    color: #666;
 }
 
 .content {
@@ -59,7 +60,5 @@ a {
 }
 
 .footer {
-  display: flex;
-  background color: #eeeeee;
-  padding: 16px;
+  background-color: #eeeeee;
 }
