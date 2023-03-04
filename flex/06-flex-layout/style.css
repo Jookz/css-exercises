@@ -31,10 +31,14 @@ input {
 }
 
 .left-links .right-links {
+  display: flex;
   flex: 1;
 }
 
 a {
+    text-decoration: none;
+}
+
+ul {
   list-style-type: none;
-  text-decoration: none;
 }
