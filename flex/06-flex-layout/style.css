@@ -31,7 +31,10 @@ input {
 }
 
 .left-links .right-links {
-  display: flex;
+  flex: 1;
+}
+
+a {
   list-style-type: none;
   text-decoration: none;
 }
