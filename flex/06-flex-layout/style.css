@@ -58,7 +58,8 @@ a {
 }
 
 .content {
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
