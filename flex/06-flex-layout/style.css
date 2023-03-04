@@ -27,7 +27,8 @@ input {
 }
 
 .header {
-  
+  display: flex;
+  padding: 16px;
 }
 
 .left-links {
@@ -45,7 +46,7 @@ ul {
 }
 
 li {
-  flex: 1;
+  gap: 16px;
 }
 
 a {
@@ -53,3 +54,13 @@ a {
     flex: 1;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  background color: #eeeeee;
+  padding: 16px;
+}
