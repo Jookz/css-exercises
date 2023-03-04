@@ -30,15 +30,20 @@ input {
   display: flex;
 }
 
-.left-links .right-links {
-  display: flex;
-  flex: 1;
+.left-links {
+  text-align: left;
+}
+
+.right-links {
+  text-align: right;
 }
 
 a {
     text-decoration: none;
+    flex: 1;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
 }
