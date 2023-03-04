@@ -34,14 +34,6 @@ input {
   justify-content: space-between;
 }
 
-.left-links {
- 
-}
-
-.right-links {
- 
-}
-
 ul {
   list-style-type: none;
   display: flex;
@@ -67,4 +59,8 @@ a {
 
 .footer {
   background-color: #eeeeee;
+}
+
+button {
+  padding: 8px 16px;
 }
