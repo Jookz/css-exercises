@@ -55,8 +55,7 @@ a {
 }
 
 .content {
-  display: flex;
-  justify-content: center;
+  display: block;
 }
 
 .footer {
