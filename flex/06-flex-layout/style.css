@@ -38,13 +38,18 @@ input {
  
 }
 
-a {
-    text-decoration: none;
-    flex: 1;
-}
-
 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
+
+li {
+  flex: 1;
+}
+
+a {
+    text-decoration: none;
+    flex: 1;
+}
+
